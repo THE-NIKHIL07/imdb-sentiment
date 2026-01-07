@@ -121,7 +121,10 @@ if st.button("Predict"):
                 st.session_state.predictions.append(prediction_percent)
                 
                 #  prediction
-                st.success(f"Predicted Sentiment: **{sentiment}** ({prediction_percent:.2f}%)")
+                st.markdown(
+                            f"<p style='color:black; font-size:20px;'>Sentiment: <b>{sentiment}</b> (Confidence score: {prediction_percent:.2f}%)</p>",
+                            unsafe_allow_html=True
+                            )
 
                
                 # Dynamic Comparison Chart
