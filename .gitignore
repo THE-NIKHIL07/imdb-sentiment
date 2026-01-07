@@ -1,0 +1,72 @@
+# ----------------------
+# Python cache and compiled files
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------
+# Jupyter Notebook checkpoints
+# ----------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ----------------------
+# Virtual environments
+# ----------------------
+venv/
+env/
+*.env
+.env/
+.venv/
+.envs/
+.conda/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------
+# Jupyter Notebook checkpoints
+# ----------------------
+.ipynb_checkpoints
+
+# ----------------------
+# IDE / Editor files
+# ----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Streamlit / project files
+# ----------------------
+*.h5
+*.pkl
+*.joblib
+*.log
+
+# ----------------------
+# Python logs
+# ----------------------
+*.log
+
+# ----------------------
+# Ignore dataset files (optional)
+# ----------------------
+data/
+*.csv
+*.tsv
+*.json
+
+# ----------------------
+# Others
+# ----------------------
+*.swp
+*.bak
+*.tmp
