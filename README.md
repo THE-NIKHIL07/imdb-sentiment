@@ -32,7 +32,7 @@ The app is built with **Streamlit**, so anyone can run it locally and try differ
 Copy and run the following commands:
 
 ```bash
-git clone https://github.com/yourusername/imdb-sentiment-rnn.git
+git clone https://github.com/THE-NIKHIL07/imdb-sentiment-rnn.git
 cd imdb-sentiment-rnn
 pip install -r requirements.txt
 streamlit run app.py
