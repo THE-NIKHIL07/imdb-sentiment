@@ -46,7 +46,6 @@ Thumbs.db
 # ----------------------
 # Streamlit / project files
 # ----------------------
-*.h5
 *.pkl
 *.joblib
 *.log
